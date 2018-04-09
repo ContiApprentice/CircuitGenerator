@@ -1,0 +1,38 @@
+package model;
+
+public class ComponentsCDS {
+
+	private String name;
+	private String version;
+
+	//constructors
+	public ComponentsCDS() {
+		super();
+	}
+
+	public ComponentsCDS(String name, String version) {
+		super();
+		this.name = name;
+		this.version = version;
+	}
+
+
+	//getters/setters
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getVersion() {
+		return version;
+	}
+
+	public void setVersion(String version) {
+		this.version = version;
+	}
+
+
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+
+<AnchorPane maxHeight="35.0" maxWidth="330.0" minHeight="35.0" minWidth="330.0" prefHeight="35.0" prefWidth="330.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141">
+   <children>
+      <Line endX="226.0" layoutX="101.0" layoutY="3.0" startX="-100.0" />
+      <Line endX="226.0" layoutX="101.0" layoutY="32.0" startX="-100.0" />
+      <Line endX="-71.0" layoutX="87.0" layoutY="17.0" rotate="90.0" startX="-100.0" />
+      <Line endX="-71.0" layoutX="413.0" layoutY="17.0" rotate="90.0" startX="-100.0" />
+      <Line endX="-71.0" layoutX="162.0" layoutY="17.0" rotate="90.0" startX="-100.0" />
+      <Label id="lb_type" fx:id="lb_type" alignment="CENTER" layoutX="6.0" layoutY="7.0" prefHeight="21.0" prefWidth="66.0" text="TYPE" />
+      <Label id="lb_name" fx:id="lb_name" alignment="CENTER" layoutX="82.0" layoutY="7.0" prefHeight="21.0" prefWidth="240.0" text="NAME (version)" />
+   </children>
+</AnchorPane>

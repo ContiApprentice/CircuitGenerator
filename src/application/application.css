@@ -1,0 +1,29 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#btn_add,
+#btn_remove,
+#btn_up,
+#btn_down,
+#btn_reset,
+#btn_generate
+{
+
+	-fx-border-radius: 15px;
+	-fx-background-repeat: no-repeat;
+	-fx-border-color: black;
+	-fx-border-width:2px;
+	-fx-background-color: #C7C7DB;
+	-fx-background-position:center;
+	-fx-background-radius: 15px;
+}
+.add{
+	-fx-background-image:url(../right-arrow.png);
+}
+.remove{
+	-fx-background-image:url(../left-arrow.png);
+}
+.up{
+	-fx-background-image:url(../up-arrow.png);
+}
+.down{
+	-fx-background-image:url(../down-arrow.png);
+}
